@@ -1,8 +1,7 @@
-const input = document.querySelector('input');
-const p = document.querySelector('p.description');
-const button = document.querySelector('button');
+const descriptionInput = document.querySelector('input');
+const descriptionP = document.querySelector('p.description');
+const descriptionButton = document.querySelector('button');
 
-button.addEventListener('click', () => {
-  p.innerHTML = input.value + ':';
+descriptionButton.addEventListener('click', () => {
+  descriptionP.innerHTML = descriptionInput.value + ':';
 });
-
